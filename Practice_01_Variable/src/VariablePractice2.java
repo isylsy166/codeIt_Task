@@ -4,20 +4,18 @@ public class VariablePractice2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // 입력 받기
         System.out.print("첫 번째 정수 : ");
         int num1 = scanner.nextInt();
 
         System.out.print("두 번째 정수 : ");
         int num2 = scanner.nextInt();
 
-        // 연산 수행
         int sum = num1 + num2;
         int diff = num1 - num2;
         int product = num1 * num2;
-        int quotient = num1 / num2; // 정수 나눗셈
+        int quotient = num1 / num2;
 
-        // 결과 출력
+
         System.out.println("더하기 결과 : " + sum);
         System.out.println("빼기 결과 : " + diff);
         System.out.println("곱하기 결과 : " + product);
