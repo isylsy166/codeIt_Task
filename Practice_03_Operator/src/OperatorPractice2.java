@@ -6,14 +6,7 @@ public class OperatorPractice2 {
         System.out.print("정수 : ");
         int number = sc.nextInt();
 
-        if (number > 0) {
-            System.out.println("양수다");
-        }
-        else if (number == 0) {
-            System.out.println("양수가 아니다");
-        }
-        else{
-            System.out.println("양수가 아니다");
-        }
+        String message = number > 0 ? "양수다" : "양수가 아니다";
+        System.out.println(message);
     }
 }
