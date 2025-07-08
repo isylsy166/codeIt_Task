@@ -4,8 +4,6 @@ public class Array10 {
     public static void main(String[] args) {
 
         int[] arr = new int[10];
-
-
         int i = 0;
 
         while(i < 10){
@@ -24,7 +22,6 @@ public class Array10 {
             i++;
 
         }
-
         Arrays.sort(arr);
         System.out.println(Arrays.toString(arr));
     }
